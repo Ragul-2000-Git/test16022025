@@ -13,6 +13,8 @@ public class test1 {
 	pp.load(fs);
 String a=	pp.getProperty("url");
 System.out.println(a);
+System.out.println("TESTING GIT");
+				
 
 
 
