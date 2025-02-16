@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [testing automation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="testoner(failed)">
+    <classes>
+      <class name="testngpackage.second">
+        <methods>
+          <include name="second"/>
+          <include name="three"/>
+        </methods>
+      </class> <!-- testngpackage.second -->
+    </classes>
+  </test> <!-- testoner(failed) -->
+  <test thread-count="5" parallel="tests" name="testoneee(failed)">
+    <classes>
+      <class name="testngpackage.first">
+        <methods>
+          <include name="ball"/>
+        </methods>
+      </class> <!-- testngpackage.first -->
+    </classes>
+  </test> <!-- testoneee(failed) -->
+</suite> <!-- Failed suite [testing automation] -->
